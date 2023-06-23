@@ -8,8 +8,8 @@ namespace Seminar220623_Homework
 		{
 			try
 			{
-				Console.WriteLine("Задание №6");
-				Target06.EvenValue();
+				Console.WriteLine("Задание №8");
+				Target08.EvenValues();
 			}
 			catch (Exception ex)
 			{
@@ -18,7 +18,7 @@ namespace Seminar220623_Homework
 			}
 			finally
 			{
-				Console.WriteLine("Для выхода из программы нажмите на любую клавишу...");
+				Console.WriteLine("\nДля выхода из программы нажмите на любую клавишу...");
 				Console.ReadKey(true);
 			}
 		}
