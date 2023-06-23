@@ -8,8 +8,8 @@ namespace Seminar220623_Homework
         {
 			try
 			{
-				Console.WriteLine("Задание №2");
-				Target02.MaxAndMin();
+				Console.WriteLine("Задание №4");
+				Target04.MaxValue();
 			}
 			catch (Exception ex)
 			{
