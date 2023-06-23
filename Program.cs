@@ -4,9 +4,17 @@ namespace Seminar220623_Homework
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+			try
+			{
+
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+				throw;
+			}
         }
     }
 }
